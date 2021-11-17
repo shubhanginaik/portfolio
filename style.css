@@ -405,7 +405,7 @@ div .dot {
   padding-top: 10px;
 }
 
-.box #file {
+.box #file1,#file2,#file3,#file4 {
   height: 25px;
 }
 progress {
