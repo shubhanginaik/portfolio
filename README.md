@@ -52,7 +52,7 @@ Node js,HTML,CSS
 
 ### My skills
 
-![some icon](./assets/html5%20(1).svg)
+![some icon](./assets/html5.svg)
 
 #### HTML
 
