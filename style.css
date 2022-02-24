@@ -279,16 +279,16 @@ div .dot {
 #projects .project-head {
   text-align: left;
   font-size: var(--sectionHeaderFont);
-  color: rgb(26, 26, 26);
+  color: white;
   padding-top: 5px;
   padding-left: var(--sectionHeadPadding);
 }
 .row {
-  height: 450px;
+  /* height: 450px; */
   justify-content: center;
 }
 /* Clear floats after the columns */
-.row:after {
+#projects .row:after {
   content: "";
   display: table;
   clear: both;
@@ -305,7 +305,7 @@ div .dot {
   text-align: left;
   padding: 5px;
   width: auto;
-  
+  color: white;
 }
 .row {
   margin-left: 15px;
@@ -316,7 +316,8 @@ div .dot {
   height: 300px;
 }
 .card {
-  background-color: rgb(245, 241, 241);
+  /* background-color: rgb(245, 241, 241); */
+  background-color: black;
 }
 .card .mainImage:hover{ 
   -webkit-transform: scale(1.01); /* Safari 3-8 */
@@ -326,7 +327,7 @@ div .dot {
 .card img {
   object-fit: fill;
   border-radius: 5px;
-  margin: 0 auto;
+  margin-left: 9px auto;
 }
 
 .project-icon a img{
@@ -337,6 +338,7 @@ div .dot {
   padding: 16px;
   font-size: 10px;
   float: left;
+ 
 }
 
 /* #About me*/
@@ -345,11 +347,19 @@ div .dot {
   margin-top: 30px;
   margin-bottom: 30px;
   padding-top: 70px;
-  background-color: rgb(221, 195, 236);
+  background-color: rgb(66, 44, 196);
   border-radius: 5px;
 }
-#about-me img {
+#about-me .column {
   float: left;
+  width: 50%;
+  padding: 0 10px;
+  border: none;
+  border-radius: 5px;
+  
+}
+#about-me img {
+  
   margin: 0 auto;
   padding-top: 10px;
   padding-left: 10px;
@@ -358,30 +368,28 @@ div .dot {
   object-fit: contain;
   -o-object-fit: contain;
 }
-#about-me td {
-  width: 50%;
-}
-#about-me td:nth-child(2) {
-  font-family: var(--paraFont);
-  font-size: 20px;
-}
-#about-me td p:nth-child(2) {
+
+
+#about-me p {
   font-style: normal;
-  color: rgb(18, 19, 18);
+  color:gold;
   word-spacing: 1.5pt;
   padding-left: 10px;
   padding-right: 25px;
   padding-top: 1rem;
+  font-size: 17px;
 }
-#about-me td h4 {
-  color: rgb(119, 102, 71);
+#about-me  h4 {
+  color: gold;
   text-align: left;
   word-spacing: 2pt;
   padding-bottom: 2px;
   padding-top: 0;
+  font-size: 22px;
 }
 #about-me h3 {
   padding-bottom: 10px;
+  padding-top: 10px;
   padding-left: var(--sectionHeadPadding);
   text-align: left;
   font-size: var(--sectionHeaderFont);
@@ -592,9 +600,9 @@ input {
   /* Responsive columns */
   /* display the links vertically instead of horizontally */
   #projects {
-    height: 1200px;
+    height: 1200px auto;
   }
-
+  
   .column {
     width: 100%;
     display: block;
@@ -606,6 +614,7 @@ input {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+    
   }
   #projects .project-head {
     font-size: var(--responsiveSectionHeaderFont);
@@ -613,18 +622,20 @@ input {
   .hero-banner {
     align-content: center;
   }
+  .row{
+    padding-top: 0px;
+  }
+  #projects .column{
+    margin-left: 10px;
+  }
 
   /* about me*/
   #about-me {
-    height: 600px;
     margin-top: 40px;
     margin-bottom: 10px;
     padding-top: 20px;
-    background-color: rgb(209, 211, 204);
   }
-  #about-me td {
-    width: 100%;
-  }
+  
   #about-me h3 {
     padding-bottom: 10px;
     padding-left: var(--sectionHeadPadding);
@@ -633,30 +644,25 @@ input {
     color: rgb(26, 26, 26);
     font-size: var(--responsiveSectionHeaderFont);
   }
-  #about-me table td:nth-child(1) {
+  #about-me .column {
     display: block;
     align-self: center;
     width: 100%;
-    padding-left: 0;
+    text-align: center;
   }
-  #about-me table td:nth-child(2) {
+  #about-me h4 {
     display: block;
     text-align: center;
     padding: 0;
   }
-  #about-me td h4 {
+  #about-me p {
     display: block;
     justify-content: center;
-    color: rgb(119, 102, 71);
     text-align: left;
     font-size: 1.1rem;
     padding: 10px 5px 2px 7px;
   }
-  #about-me td p:nth-child(2){
-    text-align: left;
-    font-size: 1.1rem;
-    padding: 10px 5px 2px 7px;
-  }
+  
   #about-me img {
     width: 90%;
     height: 80%;
@@ -702,7 +708,7 @@ input {
     padding-bottom: 10px;
     font-size: var(--responsiveSectionHeaderFont);
     color: rgb(26, 26, 26);
-  }
+  } 
   .box h4 {
     font-family: var(--headingFont);
     font-size: 14pt;
@@ -715,7 +721,7 @@ input {
     width: 20px;
     height: 25px;
     padding-top: 2px;
-  }
+  } 
 
   /* flex form*/
   .flex-form {
@@ -732,10 +738,29 @@ input {
     display: flex;
    justify-content:left;
   }
+  #projects .column{
+    width: 80%;
+  }
+  #projects .card{
+    width: 80%;
+  }
+  #projects .mainImage{
+    width: 70%;
+    height: 70%;
+    margin-left: 33px;
+  }
+  
+  
+  #projects .card{
+    margin-left: 25px;
+    margin-top: 10px;
+
+  }
   #about-me img {
     width: 80%;
     float: none;
   }
+  
   .about-me td:nth-child(2){
     word-spacing: 2pt;
     font-size: 16px;
