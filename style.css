@@ -347,7 +347,7 @@ div .dot {
   margin-top: 30px;
   margin-bottom: 30px;
   padding-top: 70px;
-  background-color: rgb(66, 44, 196);
+  background-color: rgb(130, 107, 172);
   border-radius: 5px;
 }
 #about-me .column {
@@ -395,6 +395,9 @@ div .dot {
   font-size: var(--sectionHeaderFont);
   color: rgb(26, 26, 26);
 }
+name{
+  color: white;
+}
 
 /* SKILLS*/
 #skills {
@@ -410,7 +413,7 @@ div .dot {
   padding: 0 10px;
   margin: 20px;
   width: 25%;
-  background-color: rgb(236, 217, 220);
+  background-color: rgb(130, 107, 172);
 }
 .content {
   display: flex;
