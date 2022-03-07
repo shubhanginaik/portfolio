@@ -17,6 +17,8 @@
 body {
   background-color: wheat(241, 218, 202);
   position: relative;
+  
+  
 }
 body {
   overflow-x: scroll;
@@ -24,6 +26,7 @@ body {
 main {
   max-width: 1200px;
   margin: 0 auto;
+  background: url("assets/background.jpeg") no-repeat fixed center center/cover;
 }
 .container {
   max-width: 1200px;
@@ -169,7 +172,7 @@ img {
 .hero-banner {
   position: relative;
   max-width: 1200px;
-  background: url("assets/background.jpeg") no-repeat fixed center center/cover;
+  /* background: url("assets/background.jpeg") no-repeat fixed center center/cover; */
   display: flex;
   justify-content: center;
   text-align: center;
@@ -343,11 +346,11 @@ div .dot {
 
 /* #About me*/
 #about-me {
-  height: 600px;
+  height: 720px;
   margin-top: 30px;
   margin-bottom: 30px;
   padding-top: 70px;
-  background-color: rgb(130, 107, 172);
+   background-color: rgb(35, 33, 88);
   border-radius: 5px;
 }
 #about-me .column {
@@ -377,7 +380,7 @@ div .dot {
   padding-left: 10px;
   padding-right: 25px;
   padding-top: 1rem;
-  font-size: 17px;
+  font-size: 20px;
 }
 #about-me  h4 {
   color: gold;
@@ -393,7 +396,7 @@ div .dot {
   padding-left: var(--sectionHeadPadding);
   text-align: left;
   font-size: var(--sectionHeaderFont);
-  color: rgb(26, 26, 26);
+  color: white;
 }
 name{
   color: white;
@@ -401,19 +404,20 @@ name{
 
 /* SKILLS*/
 #skills {
-  height: 350px;
-  margin-top: 30px;
+  height: 700px;
+  /* margin-top: 30px; */
   padding-top: 70px;
+  
 }
 .box {
   height: 200px;
   display: block;
   justify-content: center;
-  background-color: wheat;
+  background-color: rgb(224, 224, 210);
   padding: 0 10px;
   margin: 20px;
   width: 25%;
-  background-color: rgb(130, 107, 172);
+  
 }
 .content {
   display: flex;
@@ -424,7 +428,7 @@ name{
   text-align: left;
   padding-left: var(--sectionHeadPadding);
   font-size: var(--sectionHeaderFont);
-  color: rgb(26, 26, 26);
+  color: white;
 }
 .box h4 {
   font-family: var(--headingFont);
@@ -453,18 +457,22 @@ progress {
   background-color: rgb(27, 27, 27);
   display: flex;
   justify-content: center;
-  margin: 5px auto;
+  margin-top: 1px;
   margin-bottom: 0;
   color: white;
+  padding-top: 100px;
+  padding-bottom: 30px;
 }
 .socialmedia {
   background-color: rgb(27, 27, 27);
+  
 }
 .form-name h3 {
   font-family: var(--headingFont);
   text-align: center;
   font-size: 2rem;
   margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 label {
@@ -499,7 +507,8 @@ input {
   border-radius: 3px;
   text-align: center;
   margin-left: 150px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   color: var(--bannerTextColor);
   text-shadow: 0 0 5px blue;
   cursor: pointer;
