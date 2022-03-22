@@ -346,7 +346,8 @@ div .dot {
 
 /* #About me*/
 #about-me {
-  height: 720px;
+  /* height: 720px; */
+  height: 100vh;
   margin-top: 30px;
   margin-bottom: 30px;
   padding-top: 70px;
@@ -368,6 +369,7 @@ div .dot {
   padding-left: 10px;
   width: 480px;
   height: 300px;
+  border-radius: 50%;
   object-fit: contain;
   -o-object-fit: contain;
 }
@@ -404,7 +406,8 @@ name{
 
 /* SKILLS*/
 #skills {
-  height: 700px;
+  /* height: 700px; */
+  height: 100vh;
   /* margin-top: 30px; */
   padding-top: 70px;
   
@@ -416,13 +419,13 @@ name{
   background-color: rgb(224, 224, 210);
   padding: 0 10px;
   margin: 20px;
-  width: 25%;
+  width: 200px;
   
 }
 .content {
   display: flex;
-  text-align: center;
-  justify-content: center;
+  text-align: left;
+  justify-content: left;
 }
 #skills h3 {
   text-align: left;
@@ -450,7 +453,10 @@ name{
 progress {
   background: green;
 }
-
+#skills .content .column{
+  margin-left: 70px ;
+  border: none;
+}
 /*FOOTER FORM*/
 
 .flex-form {
