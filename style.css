@@ -458,7 +458,12 @@ progress {
   border: none;
 }
 /*FOOTER FORM*/
-
+footer{
+  height: 100vh;
+  width: 1200px;
+  background-color: rgb(27, 27, 27);
+  margin-left: 26.4%;
+}
 .flex-form {
   background-color: rgb(27, 27, 27);
   display: flex;
@@ -564,6 +569,7 @@ input {
 #myBtn:hover {
   background-color: #555;
 }
+
 
 @media screen and (max-width: 600px) {
   /* navbar */
