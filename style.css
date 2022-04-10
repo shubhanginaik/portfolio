@@ -459,10 +459,17 @@ progress {
 }
 /*FOOTER FORM*/
 footer{
-  height: 100vh;
-  width: 1200px;
+  /* height: 100vh;
+  width: 1200px;*/
+  
+  margin-left: 69px; 
   background-color: rgb(27, 27, 27);
-  margin-left: 26.4%;
+  position: relative;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
 }
 .flex-form {
   background-color: rgb(27, 27, 27);
