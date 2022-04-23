@@ -369,7 +369,6 @@ div .dot {
   padding-left: 10px;
   width: 480px;
   height: 300px;
-  border-radius: 50%;
   object-fit: contain;
   -o-object-fit: contain;
 }
