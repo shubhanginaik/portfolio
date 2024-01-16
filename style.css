@@ -17,8 +17,6 @@
 body {
   background-color: wheat(241, 218, 202);
   position: relative;
-  
-  
 }
 body {
   overflow-x: scroll;
@@ -47,16 +45,16 @@ body {
 .navbar {
   display: flex;
   max-width: 1200px;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: left;
   background-color: #333;
   color: white;
   top: 0;
-  border-bottom :1px solid white;
+  border-bottom: 1px solid white;
 }
-.navbar.sticky{
+.navbar.sticky {
   background-color: white;
-  border-bottom :1px solid rgb(41, 39, 39);
+  border-bottom: 1px solid rgb(41, 39, 39);
 }
 .brand-title {
   margin: 0.5rem;
@@ -82,7 +80,7 @@ body {
   padding: 1rem;
   display: block;
 }
-.navbar.sticky li a{
+.navbar.sticky li a {
   color: #333;
 }
 
@@ -114,7 +112,7 @@ body {
   border-radius: 10px;
 }
 /* fixed header*/
-.navbar{
+.navbar {
   width: 1200px;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
@@ -274,7 +272,7 @@ div .dot {
   }
 }
 
-/* Projects*/ 
+/* Projects*/
 #projects {
   padding-top: 65px;
   padding-bottom: 5px;
@@ -314,7 +312,7 @@ div .dot {
   margin-left: 15px;
   padding-top: 30px;
 }
-.card img{
+.card img {
   width: 350px;
   height: 300px;
 }
@@ -322,9 +320,9 @@ div .dot {
   /* background-color: rgb(245, 241, 241); */
   background-color: black;
 }
-.card .mainImage:hover{ 
+.card .mainImage:hover {
   -webkit-transform: scale(1.01); /* Safari 3-8 */
-  transform: scale(1.01); 
+  transform: scale(1.01);
   cursor: pointer;
 }
 .card img {
@@ -333,15 +331,14 @@ div .dot {
   margin-left: 9px auto;
 }
 
-.project-icon a img{
-  width:50px;
+.project-icon a img {
+  width: 50px;
   height: 50px;
   display: block;
   text-align: center;
   padding: 16px;
   font-size: 10px;
   float: left;
- 
 }
 
 /* #About me*/
@@ -351,7 +348,7 @@ div .dot {
   margin-top: 30px;
   margin-bottom: 30px;
   padding-top: 70px;
-   background-color: rgb(35, 33, 88);
+  background-color: rgb(35, 33, 88);
   border-radius: 5px;
 }
 #about-me .column {
@@ -360,10 +357,8 @@ div .dot {
   padding: 0 10px;
   border: none;
   border-radius: 5px;
-  
 }
 #about-me img {
-  
   margin: 0 auto;
   padding-top: 10px;
   padding-left: 10px;
@@ -373,17 +368,16 @@ div .dot {
   -o-object-fit: contain;
 }
 
-
 #about-me p {
   font-style: normal;
-  color:gold;
+  color: gold;
   word-spacing: 1.5pt;
   padding-left: 10px;
   padding-right: 25px;
   padding-top: 1rem;
   font-size: 20px;
 }
-#about-me  h4 {
+#about-me h4 {
   color: gold;
   text-align: left;
   word-spacing: 2pt;
@@ -399,7 +393,7 @@ div .dot {
   font-size: var(--sectionHeaderFont);
   color: white;
 }
-name{
+name {
   color: white;
 }
 
@@ -409,17 +403,15 @@ name{
   height: 100vh;
   /* margin-top: 30px; */
   padding-top: 70px;
-  
 }
 .box {
-  height: 200px;
+  height: 180px;
   display: block;
   justify-content: center;
   background-color: rgb(224, 224, 210);
   padding: 0 10px;
   margin: 20px;
   width: 200px;
-  
 }
 .content {
   display: flex;
@@ -446,18 +438,21 @@ name{
   padding-top: 10px;
 }
 
-.box #file1,#file2,#file3,#file4 {
+.box #file1,
+#file2,
+#file3,
+#file4 {
   height: 25px;
 }
 progress {
   background: green;
 }
-#skills .content .column{
-  margin-left: 70px ;
+#skills .content .column {
+  margin-left: 70px;
   border: none;
 }
 /*FOOTER FORM*/
-footer{
+footer {
   /* height: 100vh;
   width: 1200px;*/
   background-color: rgb(27, 27, 27);
@@ -481,7 +476,6 @@ footer{
 }
 .socialmedia {
   background-color: rgb(27, 27, 27);
-  
 }
 .form-name h3 {
   font-family: var(--headingFont);
@@ -575,7 +569,6 @@ input {
   background-color: #555;
 }
 
-
 @media screen and (max-width: 600px) {
   /* navbar */
   .toggle-button {
@@ -601,7 +594,7 @@ input {
   .navbar-links li {
     text-align: center;
   }
-  .navbar.sticky .navbar-links li a{
+  .navbar.sticky .navbar-links li a {
     color: #333;
   }
   .navbar-links li a {
@@ -622,7 +615,7 @@ input {
   .hero-banner h2 {
     padding-left: 25px;
   }
-  .hero-banner{
+  .hero-banner {
     width: 100%;
   }
   /* projects */
@@ -631,7 +624,7 @@ input {
   #projects {
     height: 1200px auto;
   }
-  
+
   .column {
     width: 100%;
     display: block;
@@ -643,7 +636,6 @@ input {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    
   }
   #projects .project-head {
     font-size: var(--responsiveSectionHeaderFont);
@@ -651,10 +643,10 @@ input {
   .hero-banner {
     align-content: center;
   }
-  .row{
+  .row {
     padding-top: 0px;
   }
-  #projects .column{
+  #projects .column {
     margin-left: 10px;
   }
 
@@ -664,7 +656,7 @@ input {
     margin-bottom: 10px;
     padding-top: 20px;
   }
-  
+
   #about-me h3 {
     padding-bottom: 10px;
     padding-left: var(--sectionHeadPadding);
@@ -691,7 +683,7 @@ input {
     font-size: 1.1rem;
     padding: 10px 5px 2px 7px;
   }
-  
+
   #about-me img {
     width: 90%;
     height: 80%;
@@ -737,7 +729,7 @@ input {
     padding-bottom: 10px;
     font-size: var(--responsiveSectionHeaderFont);
     color: rgb(26, 26, 26);
-  } 
+  }
   .box h4 {
     font-family: var(--headingFont);
     font-size: 14pt;
@@ -750,7 +742,7 @@ input {
     width: 20px;
     height: 25px;
     padding-top: 2px;
-  } 
+  }
 
   /* flex form*/
   .flex-form {
@@ -762,35 +754,33 @@ input {
     right: 30px;
   }
 }
-@media screen and (max-width:1020px){
-  .navbar{
+@media screen and (max-width: 1020px) {
+  .navbar {
     display: flex;
-   justify-content:left;
+    justify-content: left;
   }
-  #projects .column{
+  #projects .column {
     width: 80%;
   }
-  #projects .card{
+  #projects .card {
     width: 80%;
   }
-  #projects .mainImage{
+  #projects .mainImage {
     width: 70%;
     height: 70%;
     margin-left: 33px;
   }
-  
-  
-  #projects .card{
+
+  #projects .card {
     margin-left: 25px;
     margin-top: 10px;
-
   }
   #about-me img {
     width: 80%;
     float: none;
   }
-  
-  .about-me td:nth-child(2){
+
+  .about-me td:nth-child(2) {
     word-spacing: 2pt;
     font-size: 16px;
     overflow-y: hidden;
@@ -798,7 +788,6 @@ input {
 }
 
 @media screen and (max-width: 320px) {
-  
   #about-me img {
     float: left;
     padding-top: 0;
