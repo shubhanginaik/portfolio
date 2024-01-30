@@ -385,6 +385,13 @@ div .dot {
   padding-top: 0;
   font-size: 22px;
 }
+.competences {
+  color: greenyellow;
+  text-align: left;
+  word-spacing: 2pt;
+  padding-bottom: 2px;
+  font-size: 16px;
+}
 #about-me h3 {
   padding-bottom: 10px;
   padding-top: 10px;
@@ -674,6 +681,12 @@ input {
   #about-me h4 {
     display: block;
     text-align: center;
+    padding: 0;
+  }
+  #about-me ul {
+    display: block;
+    text-align: center;
+    font-size: 16px;
     padding: 0;
   }
   #about-me p {
