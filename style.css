@@ -66,13 +66,14 @@ body {
 }
 
 .navbar-links ul {
-  margin: 0;
+  margin: 5px;
   padding: 0;
   display: flex;
 }
 .navbar-links li {
   list-style: none;
   font-family: var(--headingFont);
+  border-radius: 20px;
 }
 .navbar-links li a {
   text-decoration: none;
